@@ -160,61 +160,102 @@
 </section>
 
 
-    <section id="projects" class="py-20">
-    <div class="projects-container">
-        
-        <div class="experience-card reveal">
-            <div class="project-img-container">
-                <img src="images/Cinnamon Site.png" alt="CCMS">
-                <div class="project-overlay">
-                    <a href="https://github.com/Tharuka742/cinna-ceylon-management-system" class="github-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-            <div class="card-content">
-                <h3>Cinna-Ceylon Management System(CCMS)</h3>
-                <p>Full-stack MERN web application for Design and Development of a 
-                    Smart Integrated Solution for the Value-Added Cinnamon Products Market in Sri Lanka.</p>
-                <div class="tech-tags">
-                    <span>MongoDB</span> <span>Express</span> <span>React</span> <span>Node.js</span>
-                </div>
-            </div>
-        </div>
+ <!-- Projects Section -->
+<section id="projects" class="py-20">
+  <h2 class="section-title">projects</h2>
 
-        <div class="experience-card reveal">
-            <div class="project-img-container">
-                <img src="images/HabitMind.png" alt="Budgetlyst">
-                <div class="project-overlay">
-                    <a href="#" class="github-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-            <div class="card-content">
-                <h3>HabitMind Welness App</h3>
-                <p>Android Kotlin app that helps users build healthy habits by tracking daily routines, mood, and hydration with personalized reminders and clear progress insights.</p>
-                <div class="tech-tags">
-                    <span>Kotlin</span> <span>Android</span> <span>SQLite</span> <span>MPChart</span>
-                </div>
-            </div>
-        </div>
+  <!-- Filter Tabs -->
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">All Projects</button>
+    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="backend">Backend</button>
+    <button class="filter-btn" data-filter="mobile">Mobile</button>
+  </div>
 
-        <div class="experience-card reveal">
-            <div class="project-img-container">
-                <img src="images/zerowaste.png" alt="SMS">
-                <div class="project-overlay">
-                    <a href="#" class="github-btn"><i class="fab fa-github"></i> Code</a>
-                </div>
-            </div>
-            <div class="card-content">
-                <h3>ZeroWaste – Sustainable Food Management App</h3>
-                <p>Designed ZeroWaste, a smart food management app that tracks expiry dates, reduces food waste, 
-                    and encourages sustainable lifestyles through notifications, recipes, and donations.</p>
-                <div class="tech-tags">
-                    <span>Figma</span> <span>UI/UX</span> <span>Prototyping</span> <span>Wireframing</span>
-                </div>
-            </div>
-        </div>
+  
 
+  <!-- Projects Container -->
+  <div class="projects-container">
+
+    <!-- Full Stack Project -->
+    <div class="experience-card reveal" data-category="fullstack">
+      <div class="project-img-container">
+        <img src="images/Cinnamon Site.png" alt="CCMS">
+        <div class="project-overlay">
+          <a href="https://github.com/Tharuka742/cinna-ceylon-management-system" class="github-btn">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Cinna-Ceylon Management System (CCMS)</h3>
+        <p>
+          Full-stack MERN web application for a smart integrated solution
+          for the value-added cinnamon products market in Sri Lanka.
+        </p>
+        <div class="tech-tags">
+          <span>MongoDB</span>
+          <span>Express</span>
+          <span>React</span>
+          <span>Node.js</span>
+        </div>
+      </div>
     </div>
+
+    <!-- Mobile Project -->
+    <div class="experience-card reveal" data-category="mobile">
+      <div class="project-img-container">
+        <img src="images/HabitMind.png" alt="HabitMind">
+        <div class="project-overlay">
+          <a href="https://github.com/Tharuka742/HabitMind_Wellness_App" class="github-btn">
+            <i class="fab fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>HabitMind Wellness App</h3>
+        <p>
+          Android Kotlin app that helps users build healthy habits
+          through routine, mood, and hydration tracking.
+        </p>
+        <div class="tech-tags">
+          <span>Kotlin</span>
+          <span>Android</span>
+          <span>SQLite</span>
+          <span>MPAndroidChart</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frontend / UI Project -->
+    <div class="experience-card reveal" data-category="frontend">
+      <div class="project-img-container">
+        <img src="images/zerowaste.png" alt="ZeroWaste">
+        <div class="project-overlay">
+          <a href="#" class="github-btn">
+            <i class="fab fa-figma"></i> Prototype
+          </a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>ZeroWaste – Sustainable Food App</h3>
+        <p>
+          UI/UX design for a smart food management app that reduces
+          food waste using expiry tracking and smart notifications.
+        </p>
+        <div class="tech-tags">
+          <span>Figma</span>
+          <span>UI/UX</span>
+          <span>Prototyping</span>
+          <span>Wireframing</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
+
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
